@@ -1,0 +1,9 @@
+/* Para quando a tela é grande */
+header, footer {
+  width: 100%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

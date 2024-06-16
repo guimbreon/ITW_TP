@@ -1,0 +1,64 @@
+footer {
+  text-align: center; 
+  border: 4px dashed salmon; 
+  padding: 10px; 
+  margin-top: 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0; 
+}
+
+#content {
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+  grid-template-rows: auto auto auto; 
+  width: 90%; 
+  margin: 2ex auto 0; 
+}
+
+
+#header {
+  grid-column: 1 / span 3; /* Ocupa toda a primeira linha */
+}
+
+#goal {
+  grid-row: 2; /* Segunda linha */
+  grid-column: 1; /* Primeira coluna */
+  padding: 8px 10px;
+}
+
+#instructions {
+  grid-row: 2 / 2; /* Segunda linha e se estende por duas linhas */
+  grid-column: 2 / span 3; /* Segunda coluna */
+  padding: 8px 10px;
+}
+
+#third {
+  grid-row: 3; /* Terceira linha */
+  grid-column: 1 / span 2; /* Ocupa a primeira e segunda colunas */
+  padding: 30px; 
+  text-align: justify;
+}
+#logo {
+  grid-row: 3;
+  grid-column: 3;
+}
+
+#logo img {
+  max-width: 100%;
+  height: auto; 
+}
+
+
+nav {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+}
+
+nav li {
+  display: inline;
+  margin-left: 5px;
+  padding: 10px;
+}

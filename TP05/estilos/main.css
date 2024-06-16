@@ -1,0 +1,58 @@
+@import "smallscreen.css"
+screen and (max-width: 599px);
+@import "widescreen.css"
+screen and (min-width: 600px);
+@import "print.css" print;
+
+/* Estilos para todas as telas */
+body {
+    background-color: lightsalmon;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0; /* para remove margens padrão */
+}
+
+header, footer {
+  text-align: center;
+}
+
+nav {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  background-color: lightyellow; 
+  font-size: 80%;
+  padding: 0.5em;
+}
+
+nav a {
+  color: blue;
+  text-decoration: none;
+  padding: 0.5em;
+  font-size: 80%;
+}
+  
+h1 {
+  font-size: 120%;
+}
+
+h2 {
+  font-size: 100%;
+}
+
+
+.mobilidade-ativa {
+  background-color: lightgreen;
+  padding: 1em;
+}
+
+.politicas {
+  background-color: lightblue;
+  padding: 1em;
+}
+
+
+img {
+  display: block;
+  margin: auto;
+}

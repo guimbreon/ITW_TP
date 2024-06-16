@@ -1,0 +1,43 @@
+header {
+    background-color: #888833;
+}
+nav {
+    background-color: #888833;
+}   
+
+body{
+    background-color: #999966;
+    font-family: Arial;
+    color: #333300;
+}
+
+footer{
+    background-color: #666633;
+    color: #cccc99;
+    font-size: small;
+    font-style: italic;
+}
+
+footer a{
+    color: #eeeebb
+}
+
+section{
+    background-color: #cccc99;
+}
+
+section a{
+    color: #444411
+}
+
+code{
+    color: black;
+    font-weight: bold;
+    font-family: Consolas;
+}
+
+.selected{
+    background-color: #666633;
+    color: white;
+    font-style: italic;
+}
